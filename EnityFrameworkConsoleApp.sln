@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnityFrameworkConsoleApp", "EnityFrameworkConsoleApp\EnityFrameworkConsoleApp.csproj", "{9644DB41-29F7-4E2F-BAA5-E0A25CB498CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFrameworkSource\src\EntityFramework\EntityFramework.csproj", "{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.SqlServer", "EntityFrameworkSource\src\EntityFramework.SqlServer\EntityFramework.SqlServer.csproj", "{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{73170C88-C60E-46E0-A160-50D06EC450BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugNet40|Any CPU = DebugNet40|Any CPU
+		Release|Any CPU = Release|Any CPU
+		ReleaseNet40|Any CPU = ReleaseNet40|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9644DB41-29F7-4E2F-BAA5-E0A25CB498CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9644DB41-29F7-4E2F-BAA5-E0A25CB498CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9644DB41-29F7-4E2F-BAA5-E0A25CB498CE}.DebugNet40|Any CPU.ActiveCfg = Debug|Any CPU
+		{9644DB41-29F7-4E2F-BAA5-E0A25CB498CE}.DebugNet40|Any CPU.Build.0 = Debug|Any CPU
+		{9644DB41-29F7-4E2F-BAA5-E0A25CB498CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9644DB41-29F7-4E2F-BAA5-E0A25CB498CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9644DB41-29F7-4E2F-BAA5-E0A25CB498CE}.ReleaseNet40|Any CPU.ActiveCfg = Release|Any CPU
+		{9644DB41-29F7-4E2F-BAA5-E0A25CB498CE}.ReleaseNet40|Any CPU.Build.0 = Release|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.DebugNet40|Any CPU.ActiveCfg = DebugNet40|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.DebugNet40|Any CPU.Build.0 = DebugNet40|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.ReleaseNet40|Any CPU.ActiveCfg = ReleaseNet40|Any CPU
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F}.ReleaseNet40|Any CPU.Build.0 = ReleaseNet40|Any CPU
+		{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A}.DebugNet40|Any CPU.ActiveCfg = DebugNet40|Any CPU
+		{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A}.DebugNet40|Any CPU.Build.0 = DebugNet40|Any CPU
+		{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A}.ReleaseNet40|Any CPU.ActiveCfg = ReleaseNet40|Any CPU
+		{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A}.ReleaseNet40|Any CPU.Build.0 = ReleaseNet40|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E06D1C12-EFE8-4413-A15C-AE01FC158F2F} = {73170C88-C60E-46E0-A160-50D06EC450BA}
+		{6F4BB80B-5F74-44D3-A77F-0025DFA48C1A} = {73170C88-C60E-46E0-A160-50D06EC450BA}
+	EndGlobalSection
+EndGlobal
